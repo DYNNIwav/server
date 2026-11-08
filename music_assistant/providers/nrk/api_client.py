@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from typing import TYPE_CHECKING, Any
+from urllib.parse import quote
 
 import aiohttp
 from music_assistant_models.errors import RateLimited
@@ -99,7 +100,9 @@ class NrkClient:
 
         :param podcast_id: The NRK series id of the podcast.
         """
-        return parse_podcast(await self._request("GET", f"radio/catalog/podcast/{podcast_id}"))
+        return parse_podcast(
+            await self._request("GET", f"radio/catalog/podcast/{_seg(podcast_id)}")
+        )
 
     async def iter_episodes(self, podcast_id: str) -> AsyncGenerator[NrkEpisode]:
         """
@@ -111,7 +114,7 @@ class NrkClient:
         while True:
             data = await self._request(
                 "GET",
-                f"radio/catalog/podcast/{podcast_id}/episodes",
+                f"radio/catalog/podcast/{_seg(podcast_id)}/episodes",
                 params={"page": page, "pageSize": EPISODE_PAGE_SIZE},
             )
             episodes, has_next = parse_episodes(data, podcast_id)
@@ -129,7 +132,7 @@ class NrkClient:
         :param episode_id: The NRK episode id.
         """
         data = await self._request(
-            "GET", f"radio/catalog/podcast/{podcast_id}/episodes/{episode_id}"
+            "GET", f"radio/catalog/podcast/{_seg(podcast_id)}/episodes/{_seg(episode_id)}"
         )
         episode = parse_episode(data, podcast_id)
         if episode is None:
@@ -142,7 +145,9 @@ class NrkClient:
 
         :param episode_id: The NRK episode id.
         """
-        return parse_manifest(await self._request("GET", f"playback/manifest/podcast/{episode_id}"))
+        return parse_manifest(
+            await self._request("GET", f"playback/manifest/podcast/{_seg(episode_id)}")
+        )
 
     async def get_channel_stream(self, channel_id: str) -> NrkStream | None:
         """
@@ -150,7 +155,9 @@ class NrkClient:
 
         :param channel_id: The NRK channel id, e.g. "p1".
         """
-        return parse_manifest(await self._request("GET", f"playback/manifest/channel/{channel_id}"))
+        return parse_manifest(
+            await self._request("GET", f"playback/manifest/channel/{_seg(channel_id)}")
+        )
 
     async def iter_followed_podcast_ids(self, user_id: str, token: str) -> AsyncGenerator[str]:
         """
@@ -159,7 +166,7 @@ class NrkClient:
         :param user_id: The NRK user id.
         :param token: A valid bearer token.
         """
-        path: str | None = f"radio/userdata/{user_id}/favourites"
+        path: str | None = f"radio/userdata/{_seg(user_id)}/favourites"
         params: dict[str, Any] | None = {
             "favouriteType": "any",
             "sortOrder": "descending",
@@ -208,7 +215,7 @@ class NrkClient:
             batch = episode_ids[start : start + PROGRESS_BATCH_SIZE]
             data = await self._request(
                 "GET",
-                f"radio/userdata/{user_id}/progress/podcast/{podcast_id}",
+                f"radio/userdata/{_seg(user_id)}/progress/podcast/{_seg(podcast_id)}",
                 params={"contentIds": ",".join(batch)},
                 token=token,
             )
@@ -290,4 +297,9 @@ class NrkClient:
 
 def _progress_path(user_id: str, podcast_id: str, episode_id: str) -> str:
     """Return the progress endpoint of an episode, as in NRK's own `progress` link."""
-    return f"radio/userdata/{user_id}/progress/podcastepisode/{podcast_id}|{episode_id}"
+    return f"radio/userdata/{_seg(user_id)}/progress/podcastepisode/{_seg(podcast_id)}|{_seg(episode_id)}"
+
+
+def _seg(value: str) -> str:
+    """Return an id escaped as one path segment, so it cannot reach another endpoint."""
+    return quote(value, safe="")

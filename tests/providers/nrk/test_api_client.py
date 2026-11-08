@@ -150,3 +150,11 @@ async def test_delete_progress_follows_nrk_link() -> None:
     client, session = _client({"DELETE /progress/abc": FakeResponse(status=202)})
     await client.delete_progress("token-1", "/radio/userdata/user-1/progress/abc")
     assert session.calls[0]["url"] == "https://psapi.nrk.no/radio/userdata/user-1/progress/abc"
+
+
+async def test_ids_stay_inside_their_path_segment() -> None:
+    """An id from a crafted uri cannot reach another NRK endpoint."""
+    escaped = "GET /radio/catalog/podcast/..%2F..%2Fuserdata%2Fsomeone%2Ffavourites"
+    client, _ = _client({escaped: FakeResponse(status=404)})
+    with pytest.raises(NrkNotFoundError):
+        await client.get_podcast("../../userdata/someone/favourites")
