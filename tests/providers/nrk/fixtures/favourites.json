@@ -1,0 +1,28 @@
+{
+ "_links": {
+  "self": {
+   "href": "/radio/userdata/382cb4d7-aaaa-aaaa-aaaa-000000000000/favourites?favouriteType=any&sortOrder=descending&pageSize=20"
+  },
+  "next": {
+   "href": "/radio/userdata/382cb4d7-aaaa-aaaa-aaaa-000000000000/favourites?favouriteType=any&key=17097876000000000!-20&sortOrder=descending&pageSize=20"
+  }
+ },
+ "favourites": [
+  {
+   "favouriteContentType": "podcast",
+   "_links": {
+    "podcasts": {
+     "href": "/radio/catalog/podcast/abels_taarn"
+    }
+   }
+  },
+  {
+   "favouriteContentType": "podcast",
+   "_links": {
+    "podcasts": {
+     "href": "/radio/catalog/podcast/baade_erlend_og_steinar_"
+    }
+   }
+  }
+ ]
+}

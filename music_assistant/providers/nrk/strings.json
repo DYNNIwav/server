@@ -1,0 +1,24 @@
+{
+  "config_entries": {
+    "username": {
+      "label": "NRK email",
+      "description": "The email of your NRK account. Optional: live radio and podcasts play without one. With an account, the podcasts you follow sync to your library."
+    },
+    "password": {
+      "label": "NRK password",
+      "description": "The password of your NRK account."
+    },
+    "nrk_session": {
+      "label": "NRK login",
+      "description": "The cookies of a radio.nrk.no browser login, as one Cookie header. Use it when the email and password login is refused, since NRK often asks for a captcha."
+    }
+  },
+  "media": {
+    "folder": {
+      "followed_podcasts": { "name": "Following" }
+    }
+  },
+  "manifest": {
+    "description": "Stream live radio and podcasts from NRK, the Norwegian public broadcaster. Log in to sync the podcasts you follow and your listening progress."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "music",
+  "domain": "nrk",
+  "name": "NRK Radio",
+  "stage": "experimental",
+  "description": "Stream live radio and podcasts from NRK, the Norwegian public broadcaster. Log in to sync the podcasts you follow and your listening progress.",
+  "documentation": "https://music-assistant.io/music-providers/nrk/",
+  "requirements": [],
+  "multi_instance": true,
+  "codeowners": [
+    "@DYNNIwav"
+  ],
+  "credits": [
+    "[nrk-psapi](https://github.com/bendikrb/nrk-psapi)"
+  ],
+  "tier": "community"
+}

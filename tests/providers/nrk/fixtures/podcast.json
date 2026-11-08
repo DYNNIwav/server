@@ -1,0 +1,34 @@
+{
+ "series": {
+  "id": "baade_erlend_og_steinar_",
+  "titles": {
+   "title": "Både Erlend og Steinar ",
+   "subtitle": "En tenketank for folk med lav intelligens."
+  },
+  "category": {
+   "id": "humor",
+   "name": "Humor og prateprogram"
+  },
+  "publicationFrequencyDisplayText": "Nye episoder hver mandag!",
+  "image": [
+   {
+    "url": "https://gfx.nrk.no/VXk9UuoXHqqtlCXlc9P0sQGENnKbR6TE3Yt1kk4tpE-w",
+    "width": 300
+   },
+   {
+    "url": "https://gfx.nrk.no/VXk9UuoXHqqtlCXlc9P0sQD3fCfbZwTRfYt1kk4tpE-w",
+    "width": 600
+   }
+  ],
+  "squareImage": [
+   {
+    "url": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVgVFteP96jsawr20gUhn3UEA",
+    "width": 300
+   },
+   {
+    "url": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVggFt7rKr_PSsr20gUhn3UEA",
+    "width": 600
+   }
+  ]
+ }
+}

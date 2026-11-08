@@ -1,0 +1,108 @@
+{
+ "sections": [
+  {
+   "id": "da2b39a0-f888-11ed-8677-25d1f99e84ca",
+   "included": {
+    "title": "MULTIHERO",
+    "plugs": [
+     {
+      "id": "27627f80-08b7-11f1-86f7-ad5c4ac14dcc",
+      "type": "podcast",
+      "title": "Kjærlighetens opp- og nedturer",
+      "tagline": "Utro, håp og kjærlighet",
+      "description": "Selma Ibrahim inviterer kjente gjester til ærlige samtaler.",
+      "podcast": {
+       "podcastId": "utro_haap_og_kjaerlighet",
+       "imageUrl": "https://gfx.nrk.no/i6WpRMdSUR8U5mKLWBcDAAGgUEsgdUJWSTNFpFaD-XUg",
+       "numberOfEpisodes": 94,
+       "podcastTitle": "Utro, håp og kjærlighet"
+      },
+      "eCommerce": {
+       "id": "podcastseries:utro_haap_og_kjaerlighet",
+       "name": "Utro, håp og kjærlighet",
+       "position": 1
+      }
+     },
+     {
+      "id": "d9504f90-000d-11f1-b3ca-e58b436bec71",
+      "type": "podcast",
+      "title": "Bli med bak overskriftene",
+      "tagline": "Krimrommet",
+      "description": "Dennis og Valentina gjør et dypdykk i aktuelle krimsaker.",
+      "podcast": {
+       "podcastId": "krimrommet",
+       "imageUrl": "https://gfx.nrk.no/9s7r4W9JRoHjl5heQsPeSw2Frscc6THutLMdeUJKXX2A",
+       "numberOfEpisodes": 54,
+       "podcastTitle": "Krimrommet"
+      },
+      "eCommerce": {
+       "id": "podcastseries:krimrommet",
+       "name": "Krimrommet",
+       "position": 2
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "f46142e3-7bed-412d-896f-f1eb082dd036",
+   "included": {
+    "title": "Videopodkastar i NRK Radio",
+    "plugs": [
+     {
+      "id": "00b8a970-08b9-11f1-ac8d-0fad54ecf5b6",
+      "type": "podcast",
+      "title": "Utro, håp og kjærlighet",
+      "description": "Kjærligheten er kanskje størst, men også vond og nervepirrende. Heldigvis hjelper det å snakke om det.",
+      "podcast": {
+       "podcastId": "utro_haap_og_kjaerlighet",
+       "imageUrl": "https://gfx.nrk.no/Wx3JyMLcjLgYoF0S-ZxFtA_dGUagBBOSIMRqPmXUaULg",
+       "numberOfEpisodes": 94,
+       "podcastTitle": "Utro, håp og kjærlighet"
+      },
+      "eCommerce": {
+       "id": "podcastseries:utro_haap_og_kjaerlighet",
+       "name": "Utro, håp og kjærlighet",
+       "position": 1
+      }
+     },
+     {
+      "id": "0e426400-08b9-11f1-ac8d-0fad54ecf5b6",
+      "type": "podcast",
+      "title": "Krimrommet",
+      "description": "Bak overskriftene skjuler det seg detaljer vi vanligvis ikke får vite. Dennis og Valentina gjør et dypdykk i aktuelle krimsaker.",
+      "podcast": {
+       "podcastId": "krimrommet",
+       "imageUrl": "https://gfx.nrk.no/GvQVMA9ZwFz3d9cwIKqK0wRhw5Y7Mc5s5kUjh-g5admQ",
+       "numberOfEpisodes": 54,
+       "podcastTitle": "Krimrommet"
+      },
+      "eCommerce": {
+       "id": "podcastseries:krimrommet",
+       "name": "Krimrommet",
+       "position": 2
+      }
+     },
+     {
+      "id": "27627f80-08b7-11f1-86f7-ad5c4ac14dcc",
+      "type": "podcast",
+      "title": "Kjærlighetens opp- og nedturer",
+      "tagline": "Utro, håp og kjærlighet",
+      "description": "Selma Ibrahim inviterer kjente gjester til ærlige samtaler.",
+      "podcast": {
+       "podcastId": "utro_haap_og_kjaerlighet",
+       "imageUrl": "https://gfx.nrk.no/i6WpRMdSUR8U5mKLWBcDAAGgUEsgdUJWSTNFpFaD-XUg",
+       "numberOfEpisodes": 94,
+       "podcastTitle": "Utro, håp og kjærlighet"
+      },
+      "eCommerce": {
+       "id": "podcastseries:utro_haap_og_kjaerlighet",
+       "name": "Utro, håp og kjærlighet",
+       "position": 1
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

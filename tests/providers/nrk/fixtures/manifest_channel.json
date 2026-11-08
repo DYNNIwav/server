@@ -1,0 +1,25 @@
+{
+ "id": "p1",
+ "playability": "playable",
+ "streamingMode": "live",
+ "playable": {
+  "endSequenceStartTime": null,
+  "duration": null,
+  "assets": [
+   {
+    "url": "https://nrk-live-radio-world.akamaized.net/p1/muxed.m3u8?adap=audio&aco=aac",
+    "format": "HLS",
+    "mimeType": "application/vnd.apple.mpegurl",
+    "encrypted": false,
+    "encryptionScheme": "none"
+   }
+  ],
+  "liveBuffer": {
+   "bufferStartTime": null,
+   "bufferDuration": "PT3H",
+   "bufferType": "sliding"
+  },
+  "subtitles": [],
+  "thumbnails": []
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "episodeId": "l_9b4b0949-cb93-4824-8b09-49cb930824d4",
+ "date": "2026-09-21T06:00:00+02:00",
+ "titles": {
+  "title": "En personlig beskjed fra vikingtiden",
+  "subtitle": "Skal man fikse annen manns knirkedør? Hvilket menneske fra vår tid huskes om 1000 år? Og Erlend og Steinar vil ha mer hokus pokus inn i skolen."
+ },
+ "availability": {
+  "status": "available",
+  "hasLabel": false
+ },
+ "duration": {
+  "seconds": 4000,
+  "iso8601": "PT1H6M40S",
+  "displayValue": "1 t 6 min"
+ }
+}

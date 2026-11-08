@@ -1,0 +1,176 @@
+{
+ "_links": {
+  "self": {
+   "href": "/radio/catalog/podcast/baade_erlend_og_steinar_/episodes?page=1&pageSize=3&sort=desc"
+  },
+  "next": {
+   "href": "/radio/catalog/podcast/baade_erlend_og_steinar_/episodes?page=2&pageSize=3&sort=desc"
+  }
+ },
+ "_embedded": {
+  "episodes": [
+   {
+    "_links": {
+     "self": {
+      "href": "/radio/catalog/podcast/baade_erlend_og_steinar_/episodes/l_9b4b0949-cb93-4824-8b09-49cb930824d4"
+     },
+     "progress": {
+      "href": "/radio/userdata/{userId}/progress/podcastepisode/baade_erlend_og_steinar_|l_9b4b0949-cb93-4824-8b09-49cb930824d4",
+      "templated": true
+     },
+     "favourite": {
+      "href": "/radio/userdata/{userId}/favourites/podcast/baade_erlend_og_steinar_",
+      "templated": true
+     }
+    },
+    "id": "1f89cedfaf67b1ace2555c85ca1bc162",
+    "episodeId": "l_9b4b0949-cb93-4824-8b09-49cb930824d4",
+    "titles": {
+     "title": "En personlig beskjed fra vikingtiden",
+     "subtitle": "Skal man fikse annen manns knirkedør? Hvilket menneske fra vår tid huskes om 1000 år? Og Erlend og Steinar vil ha mer hokus pokus inn i skolen."
+    },
+    "originalTitle": "Både Erlend og Steinar ",
+    "image": [
+     {
+      "url": "https://gfx.nrk.no/C2NloO5nZqaU1AAswq4w2Aj8Lml5Vh6c5OSh1ilBAKLA",
+      "width": 300
+     },
+     {
+      "url": "https://gfx.nrk.no/C2NloO5nZqaU1AAswq4w2At7zCU6F1fudOSh1ilBAKLA",
+      "width": 600
+     }
+    ],
+    "squareImage": [
+     {
+      "url": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVgVFteP96jsawr20gUhn3UEA",
+      "width": 300
+     },
+     {
+      "url": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVggFt7rKr_PSsr20gUhn3UEA",
+      "width": 600
+     }
+    ],
+    "duration": "PT1H6M40S",
+    "date": "2026-09-21T06:00:00+02:00",
+    "durationInSeconds": 4000,
+    "availability": {
+     "status": "available",
+     "hasLabel": false
+    },
+    "badges": [],
+    "category": {
+     "id": "humor",
+     "name": "Humor og prateprogram"
+    }
+   },
+   {
+    "_links": {
+     "self": {
+      "href": "/radio/catalog/podcast/baade_erlend_og_steinar_/episodes/l_beb99ebc-3e8b-4dab-b99e-bc3e8b9dabf1"
+     },
+     "progress": {
+      "href": "/radio/userdata/{userId}/progress/podcastepisode/baade_erlend_og_steinar_|l_beb99ebc-3e8b-4dab-b99e-bc3e8b9dabf1",
+      "templated": true
+     },
+     "favourite": {
+      "href": "/radio/userdata/{userId}/favourites/podcast/baade_erlend_og_steinar_",
+      "templated": true
+     }
+    },
+    "id": "6e98a5735c2e5ab894d7a48788841b9f",
+    "episodeId": "l_beb99ebc-3e8b-4dab-b99e-bc3e8b9dabf1",
+    "titles": {
+     "title": "Erlend letter på sløret",
+     "subtitle": "Trenger vi en idrettspsykolog? Hvor lenge kan man egentlig sitte på kafé? Og hva lukter Norge?"
+    },
+    "originalTitle": "Både Erlend og Steinar ",
+    "image": [
+     {
+      "url": "https://gfx.nrk.no/awY7dLuuBejNUcdPmaESJwurkT2M4NitIRupYwKRVtyg",
+      "width": 300
+     },
+     {
+      "url": "https://gfx.nrk.no/awY7dLuuBejNUcdPmaESJwzcbbrxQ1mOERupYwKRVtyg",
+      "width": 600
+     }
+    ],
+    "squareImage": [
+     {
+      "url": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVgVFteP96jsawr20gUhn3UEA",
+      "width": 300
+     },
+     {
+      "url": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVggFt7rKr_PSsr20gUhn3UEA",
+      "width": 600
+     }
+    ],
+    "duration": "PT1H7M50S",
+    "date": "2026-09-14T06:00:00+02:00",
+    "durationInSeconds": 4070,
+    "availability": {
+     "status": "available",
+     "hasLabel": false
+    },
+    "badges": [],
+    "category": {
+     "id": "humor",
+     "name": "Humor og prateprogram"
+    }
+   },
+   {
+    "_links": {
+     "self": {
+      "href": "/radio/catalog/podcast/baade_erlend_og_steinar_/episodes/l_1dd7a8a1-1aa0-43a3-97a8-a11aa093a31a"
+     },
+     "progress": {
+      "href": "/radio/userdata/{userId}/progress/podcastepisode/baade_erlend_og_steinar_|l_1dd7a8a1-1aa0-43a3-97a8-a11aa093a31a",
+      "templated": true
+     },
+     "favourite": {
+      "href": "/radio/userdata/{userId}/favourites/podcast/baade_erlend_og_steinar_",
+      "templated": true
+     }
+    },
+    "id": "2d6860a11519dcf8b17a77c63154b3cb",
+    "episodeId": "l_1dd7a8a1-1aa0-43a3-97a8-a11aa093a31a",
+    "titles": {
+     "title": "En ubehagelig god gjerning",
+     "subtitle": "Har Erlend blitt en KI-doomer? Hvordan får man egentlig et bedre selvbilde? Og en lytter har vært vitne til en ubehagelig god gjerning."
+    },
+    "originalTitle": "Både Erlend og Steinar ",
+    "image": [
+     {
+      "url": "https://gfx.nrk.no/4Rf7Mga7O5bvaj2M-PN8Kgh42mhJ7oqVcMBAZM7vCQ1g",
+      "width": 300
+     },
+     {
+      "url": "https://gfx.nrk.no/4Rf7Mga7O5bvaj2M-PN8KgMQkZkVSYhoQMBAZM7vCQ1g",
+      "width": 600
+     }
+    ],
+    "squareImage": [
+     {
+      "url": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVgVFteP96jsawr20gUhn3UEA",
+      "width": 300
+     },
+     {
+      "url": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVggFt7rKr_PSsr20gUhn3UEA",
+      "width": 600
+     }
+    ],
+    "duration": "PT57M32S",
+    "date": "2026-09-07T06:00:00+02:00",
+    "durationInSeconds": 3452,
+    "availability": {
+     "status": "available",
+     "hasLabel": false
+    },
+    "badges": [],
+    "category": {
+     "id": "humor",
+     "name": "Humor og prateprogram"
+    }
+   }
+  ]
+ }
+}

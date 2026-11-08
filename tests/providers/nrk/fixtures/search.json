@@ -1,0 +1,134 @@
+{
+ "results": {
+  "channels": {
+   "results": []
+  },
+  "series": {
+   "results": [
+    {
+     "score": 0,
+     "id": "c5a8b46d8c8a7baf1eaecfad34ab1e92",
+     "seriesId": "baade_erlend_og_steinar_",
+     "type": "podcast",
+     "title": "Både Erlend og Steinar ",
+     "description": "En tenketank for folk med lav intelligens.",
+     "images": [
+      {
+       "uri": "https://gfx.nrk.no/VXk9UuoXHqqtlCXlc9P0sQGENnKbR6TE3Yt1kk4tpE-w",
+       "width": 300
+      },
+      {
+       "uri": "https://gfx.nrk.no/VXk9UuoXHqqtlCXlc9P0sQD3fCfbZwTRfYt1kk4tpE-w",
+       "width": 600
+      }
+     ],
+     "images_1_1": [
+      {
+       "uri": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVgVFteP96jsawr20gUhn3UEA",
+       "width": 300
+      },
+      {
+       "uri": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVggFt7rKr_PSsr20gUhn3UEA",
+       "width": 600
+      }
+     ]
+    },
+    {
+     "score": 0,
+     "id": "367b68c9ab808cba3f646fe9c215a00c",
+     "seriesId": "radio_moerch",
+     "type": "podcast",
+     "title": "Radio Mørch",
+     "description": "Erlend Mørch snakker med folk han gjerne vil snakke med. Ofte gøy, alltid interessant.",
+     "images": [
+      {
+       "uri": "https://gfx.nrk.no/XMxwV9B4yqjzlQM5ADPRTgzfDT9c4NcZNB26t2T82arg",
+       "width": 300
+      },
+      {
+       "uri": "https://gfx.nrk.no/XMxwV9B4yqjzlQM5ADPRTgqY1DWlVrZ6tB26t2T82arg",
+       "width": 600
+      }
+     ],
+     "images_1_1": [
+      {
+       "uri": "https://gfx.nrk.no/0w5PO-iKGUgfZW2D0Kop5AupHwr3UhivOuBZacop8UBw",
+       "width": 300
+      },
+      {
+       "uri": "https://gfx.nrk.no/0w5PO-iKGUgfZW2D0Kop5Ac-8FKsKAnHmuBZacop8UBw",
+       "width": 600
+      }
+     ]
+    }
+   ]
+  },
+  "episodes": {
+   "links": {
+    "next": "/radio/search/search?q=erlend og steinar&take=5&skip=5&page=1&type=episode"
+   },
+   "results": [
+    {
+     "id": "6e98a5735c2e5ab894d7a48788841b9f",
+     "episodeId": "l_beb99ebc-3e8b-4dab-b99e-bc3e8b9dabf1",
+     "seriesId": "baade_erlend_og_steinar_",
+     "seasonId": "",
+     "type": "podcastEpisode",
+     "title": "Erlend letter på sløret",
+     "seriesTitle": "Både Erlend og Steinar ",
+     "images": [
+      {
+       "uri": "https://gfx.nrk.no/awY7dLuuBejNUcdPmaESJwurkT2M4NitIRupYwKRVtyg",
+       "width": 300
+      },
+      {
+       "uri": "https://gfx.nrk.no/awY7dLuuBejNUcdPmaESJwzcbbrxQ1mOERupYwKRVtyg",
+       "width": 600
+      }
+     ],
+     "images_1_1": [
+      {
+       "uri": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVgVFteP96jsawr20gUhn3UEA",
+       "width": 300
+      },
+      {
+       "uri": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVggFt7rKr_PSsr20gUhn3UEA",
+       "width": 600
+      }
+     ],
+     "date": "2026-09-14T04:00:00+00:00"
+    },
+    {
+     "id": "1f89cedfaf67b1ace2555c85ca1bc162",
+     "episodeId": "l_9b4b0949-cb93-4824-8b09-49cb930824d4",
+     "seriesId": "baade_erlend_og_steinar_",
+     "seasonId": "",
+     "type": "podcastEpisode",
+     "title": "En personlig beskjed fra vikingtiden",
+     "seriesTitle": "Både Erlend og Steinar ",
+     "images": [
+      {
+       "uri": "https://gfx.nrk.no/C2NloO5nZqaU1AAswq4w2Aj8Lml5Vh6c5OSh1ilBAKLA",
+       "width": 300
+      },
+      {
+       "uri": "https://gfx.nrk.no/C2NloO5nZqaU1AAswq4w2At7zCU6F1fudOSh1ilBAKLA",
+       "width": 600
+      }
+     ],
+     "images_1_1": [
+      {
+       "uri": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVgVFteP96jsawr20gUhn3UEA",
+       "width": 300
+      },
+      {
+       "uri": "https://gfx.nrk.no/3WxYncwSqVxuY0BpYXabVggFt7rKr_PSsr20gUhn3UEA",
+       "width": 600
+      }
+     ],
+     "date": "2026-09-21T04:00:00+00:00"
+    }
+   ]
+  }
+ }
+}

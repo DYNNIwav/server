@@ -1,0 +1,131 @@
+[
+ {
+  "type": "regionalChannel",
+  "id": "p1",
+  "_embedded": {
+   "playback": {
+    "title": "NRK P1",
+    "description": "",
+    "squarePosters": [
+     {
+      "defaultImage": false,
+      "ratio": "1:1",
+      "mimeType": "image/jpeg",
+      "items": [
+       {
+        "url": "https://gfx.nrk.no/O835ZGvf39FaTBfZSq-8QAnFdYx-s-wZW7TDD1s7peTQ",
+        "pixelWidth": 300
+       },
+       {
+        "url": "https://gfx.nrk.no/O835ZGvf39FaTBfZSq-8QA2wsUKJLW0i-7TDD1s7peTQ",
+        "pixelWidth": 600
+       },
+       {
+        "url": "https://gfx.nrk.no/O835ZGvf39FaTBfZSq-8QAaj9HxewDP0W7TDD1s7peTQ",
+        "pixelWidth": 960
+       },
+       {
+        "url": "https://gfx.nrk.no/O835ZGvf39FaTBfZSq-8QAZaoop-3hB3C7TDD1s7peTQ",
+        "pixelWidth": 1280
+       },
+       {
+        "url": "https://gfx.nrk.no/O835ZGvf39FaTBfZSq-8QA-KvGZgnD2Ka7TDD1s7peTQ",
+        "pixelWidth": 1600
+       },
+       {
+        "url": "https://gfx.nrk.no/O835ZGvf39FaTBfZSq-8QADu9pfBbi_Sq7TDD1s7peTQ",
+        "pixelWidth": 1920
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "type": "regionalChannel",
+  "id": "p1pluss",
+  "_embedded": {
+   "playback": {
+    "title": "NRK P1+",
+    "description": "",
+    "squarePosters": [
+     {
+      "defaultImage": false,
+      "ratio": "1:1",
+      "mimeType": "image/jpeg",
+      "items": [
+       {
+        "url": "https://gfx.nrk.no/SakjNRkgEYGCaStQ7gIpNw8MiKUb0jRam_nJtT3TjZ3w",
+        "pixelWidth": 300
+       },
+       {
+        "url": "https://gfx.nrk.no/SakjNRkgEYGCaStQ7gIpNwIYZ5q30S1kC_nJtT3TjZ3w",
+        "pixelWidth": 600
+       },
+       {
+        "url": "https://gfx.nrk.no/SakjNRkgEYGCaStQ7gIpNwuLNmIWLvu7S_nJtT3TjZ3w",
+        "pixelWidth": 960
+       },
+       {
+        "url": "https://gfx.nrk.no/SakjNRkgEYGCaStQ7gIpNwXTnlZ0vcsQi_nJtT3TjZ3w",
+        "pixelWidth": 1280
+       },
+       {
+        "url": "https://gfx.nrk.no/SakjNRkgEYGCaStQ7gIpNwSqazHt1wFVm_nJtT3TjZ3w",
+        "pixelWidth": 1600
+       },
+       {
+        "url": "https://gfx.nrk.no/SakjNRkgEYGCaStQ7gIpNw_r4IUVNuxwe_nJtT3TjZ3w",
+        "pixelWidth": 1920
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ {
+  "type": "regionalChannel",
+  "id": "p2",
+  "_embedded": {
+   "playback": {
+    "title": "NRK P2",
+    "description": "",
+    "squarePosters": [
+     {
+      "defaultImage": false,
+      "ratio": "1:1",
+      "mimeType": "image/jpeg",
+      "items": [
+       {
+        "url": "https://gfx.nrk.no/5VaLs0WhIk0uXKlgrkOcfg3Qil9gLJvQqr2WpMEdkJjg",
+        "pixelWidth": 300
+       },
+       {
+        "url": "https://gfx.nrk.no/5VaLs0WhIk0uXKlgrkOcfgQKdzmc7ivNOr2WpMEdkJjg",
+        "pixelWidth": 600
+       },
+       {
+        "url": "https://gfx.nrk.no/5VaLs0WhIk0uXKlgrkOcfgLuDbPbmXn_ur2WpMEdkJjg",
+        "pixelWidth": 960
+       },
+       {
+        "url": "https://gfx.nrk.no/5VaLs0WhIk0uXKlgrkOcfgD2lnE2ro9tCr2WpMEdkJjg",
+        "pixelWidth": 1280
+       },
+       {
+        "url": "https://gfx.nrk.no/5VaLs0WhIk0uXKlgrkOcfgyGUguXjONPmr2WpMEdkJjg",
+        "pixelWidth": 1600
+       },
+       {
+        "url": "https://gfx.nrk.no/5VaLs0WhIk0uXKlgrkOcfgNXwAO32ljNKr2WpMEdkJjg",
+        "pixelWidth": 1920
+       }
+      ]
+     }
+    ]
+   }
+  }
+ }
+]

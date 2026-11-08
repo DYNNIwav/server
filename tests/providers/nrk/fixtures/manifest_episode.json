@@ -1,0 +1,21 @@
+{
+ "id": "l_9b4b0949-cb93-4824-8b09-49cb930824d4",
+ "playability": "playable",
+ "streamingMode": "onDemand",
+ "playable": {
+  "endSequenceStartTime": null,
+  "duration": "PT1H6M40S",
+  "assets": [
+   {
+    "url": "https://podkast.nrk.no/fil/baade_erlend_og_steinar_/9b4b0949-cb93-4824-8b09-49cb930824d4_1_ID192MP3.mp3",
+    "format": "MP3",
+    "mimeType": "audio/mp3",
+    "encrypted": false,
+    "encryptionScheme": "none"
+   }
+  ],
+  "liveBuffer": null,
+  "subtitles": [],
+  "thumbnails": []
+ }
+}
